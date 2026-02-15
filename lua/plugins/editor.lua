@@ -8,7 +8,7 @@ return {
 
   -- Auto pairs
   {
-    "echasnovski/mini.pairs",
+    "nvim-mini/mini.pairs",
     event = "VeryLazy",
     opts = {},
     config = function(_, opts)
@@ -18,7 +18,7 @@ return {
 
   -- Surround
   {
-    "echasnovski/mini.surround",
+    "nvim-mini/mini.surround",
     keys = function(_, keys)
       -- Populate the keys based on the user's options
       local plugin = require("lazy.core.config").spec.plugins["mini.surround"]
@@ -58,7 +58,7 @@ return {
 
   -- Indent guides
   {
-    "echasnovski/mini.indentscope",
+    "nvim-mini/mini.indentscope",
     version = false, -- wait till new 0.7.0 release to put it back on semver
     opts = {
       -- symbol = "▏",

@@ -1,12 +1,11 @@
 return {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = {
         ensure_installed = {
             -- LSP servers
             "lua-language-server",
             "gopls",
             "pyright",
-            "clangd",
             "jdtls",
             "phpactor",
 
